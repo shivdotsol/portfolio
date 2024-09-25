@@ -64,3 +64,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+button{
+  transition: all 0.2s;
+}
+
+img{
+  transition: all 0.3s;
+}
+img:hover{
+  scale: 1.1;
+}
