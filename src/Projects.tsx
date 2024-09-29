@@ -15,7 +15,9 @@ function Projects() {
     ];
     return (
         <div>
-            <div className="text-2xl font-extrabold mb-7 mt-5">Projects</div>
+            <div className="text-lg xl:text-2xl font-extrabold mb-4 xl:mb-7 mt-5">
+                Projects
+            </div>
             <div className="flex">
                 {projectsArr.map((i, n) => (
                     <ProjectCard

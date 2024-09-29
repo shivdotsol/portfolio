@@ -16,10 +16,10 @@ function Technologies() {
     ];
     return (
         <div>
-            <div className="text-2xl font-extrabold mb-6 mt-10">
+            <div className="text-lg xl:text-2xl font-extrabold mb-3 xl:mb-6 mt-10">
                 Technologies
             </div>
-            <div className="grid grid-cols-8 mt-2 mb-5 px-2 py-1">
+            <div className="grid grid-cols-5 xl:grid-cols-8 mt-2 mb-5 px-2 py-1">
                 {techArr.map((i, n) => (
                     <ImageDiv name={i.name} imgSrc={i.imgSrc} key={n} />
                 ))}
@@ -30,11 +30,13 @@ function Technologies() {
 
 function ImageDiv({ name, imgSrc }: { name: string; imgSrc: string }) {
     return (
-        <div className="flex flex-col w-28 mb-7">
+        <div className="flex flex-col w-16 xl:w-28 xl:mb-7 mb-2">
             <div>
-                <img className="w-14 h-auto mx-auto" src={imgSrc} />
+                <img className="w-8 xl:w-14 h-auto mx-auto" src={imgSrc} />
             </div>
-            <div className="h-5 text-sm mt-3 w-full text-center">{name}</div>
+            <div className="h-5 text-[9px] xl:text-sm mt-3 w-full text-center">
+                {name}
+            </div>
         </div>
     );
 }

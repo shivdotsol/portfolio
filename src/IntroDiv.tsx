@@ -7,23 +7,23 @@ function IntroDiv() {
             {/* name, socials and profile pic */}
             <div className="w-full flex justify-between">
                 <div className="flex flex-col">
-                    <div className="text-4xl font-extrabold mb-2">
+                    <div className="text-lg xl:text-4xl font-extrabold xl:mb-2">
                         Shiv Ji Tiwari
                     </div>
-                    <div className="text-slate-400">
+                    <div className="w-[95%] xl:w-full text-slate-400 text-xs xl:text-base">
                         Full Stack Web Developer focused on learning through
                         building cool things.
                     </div>
-                    <div className="text-slate-400 flex items-center mt-1">
+                    <div className="text-slate-400 flex items-center xl:mt-1">
                         <img
                             src="/icons/location.png"
-                            className="h-[15px] mr-1 w-auto"
+                            className="h-[9px] xl:h-[15px] mr-[2px] xl:mr-1 w-auto"
                         />
-                        <div className="h-[15px] flex items-center mt-[2px]">
+                        <div className="h-[15px] flex items-center mt-[2px] text-xs xl:text-base">
                             Lucknow, UP.
                         </div>
                     </div>
-                    <div className="flex mt-4">
+                    <div className="flex mt-2 xl:mt-4">
                         <SocialsIcon
                             src="/icons/email.png"
                             to="mailto:mail.shivtiwari@gmail.com"
@@ -47,14 +47,16 @@ function IntroDiv() {
                         <SocialsIcon src="/icons/resume.png" to="/resume.pdf" />
                     </div>
                 </div>
-                <div className="my-auto w-40 h-40 rounded-lg overflow-hidden">
+                <div className="my-auto w-36 h-20 xl:h-40 xl:w-40 rounded-lg overflow-hidden bg-slate-700">
                     <ImageDiv imgSrc="/profile-pic.png" />
                 </div>
             </div>
             {/* about me */}
             <div className="w-full flex flex-col my-5">
-                <div className="text-2xl font-extrabold my-3">About Me</div>
-                <div className="text-slate-400">
+                <div className="text-lg xl:text-2xl font-extrabold xl:my-3">
+                    About Me
+                </div>
+                <div className="text-slate-400 text-[10px] xl:text-base">
                     Hey! I'm a full-stack developer who enjoys building
                     efficient, scalable web applications. I love working with{" "}
                     <b className="text-slate-300">TypeScript</b> for the

@@ -14,7 +14,7 @@ function ImageDiv({ imgSrc }: { imgSrc: string }) {
     return (
         <div className="relative w-full h-full overflow-hidden">
             <img
-                className={`absolute top-0 left-0 object-left-top ${
+                className={`absolute h-full w-full z-10 top-0 left-0 object-left-top ${
                     imageLoaded ? "opacity-100" : "opacity-0"
                 }`}
                 src={imgSrc}

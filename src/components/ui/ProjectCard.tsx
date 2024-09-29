@@ -18,7 +18,7 @@ function ProjectCard({
     liveLink: string;
 }) {
     return (
-        <div className="w-96 ml-10 bg-slate-900 rounded-xl overflow-hidden border-[1px] border-slate-800">
+        <div className="w-96 xl:ml-10 bg-slate-900 rounded-xl overflow-hidden border-[1px] border-slate-800">
             <div className="w-full h-52">
                 <ImageDiv imgSrc={imgSrc} />
             </div>
