@@ -47,7 +47,7 @@ function IntroDiv() {
                         <SocialsIcon src="/icons/resume.png" to="/resume.pdf" />
                     </div>
                 </div>
-                <div className="my-auto w-36 h-20 xl:h-40 xl:w-40 rounded-lg overflow-hidden bg-slate-700">
+                <div className="my-auto w-[150px] h-[75px]  xl:h-40 xl:w-40 rounded-lg overflow-hidden bg-slate-500">
                     <ImageDiv imgSrc="/profile-pic.png" />
                 </div>
             </div>

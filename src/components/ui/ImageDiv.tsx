@@ -13,13 +13,18 @@ function ImageDiv({ imgSrc }: { imgSrc: string }) {
 
     return (
         <div className="relative w-full h-full overflow-hidden">
-            <img
-                className={`absolute h-full w-full z-10 top-0 left-0 object-left-top ${
+            <div
+                className={`absolute h-full w-full top-0 left-0 bg-slate-600 ${
                     imageLoaded ? "opacity-100" : "opacity-0"
                 }`}
-                src={imgSrc}
-            />
-            <div className="h-full w-full flex items-center justify-center bg-slate-700">
+            >
+                <img src={imgSrc} className="w-full h-auto" />
+            </div>
+            <div
+                className={`h-full w-full items-center justify-center bg-slate-700 ${
+                    imageLoaded ? "hidden" : "flex"
+                }`}
+            >
                 <img src="/icons/image-placeholder.png" />
             </div>
         </div>
