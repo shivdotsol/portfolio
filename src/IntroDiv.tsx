@@ -34,7 +34,7 @@ function IntroDiv() {
                         />
                         <SocialsIcon
                             src="/icons/twitter.png"
-                            to="https://x.com/shivdotsol"
+                            to="https://x.com/sh1vtiwari"
                         />
                         <SocialsIcon
                             src="/icons/github.png"

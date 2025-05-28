@@ -36,7 +36,7 @@ function ProjectCard({
                     {description}
                 </div>
                 <div className="mt-10 flex justify-between">
-                    <a href={gitHubLink}>
+                    <a href={gitHubLink} target="_blank">
                         <button className="flex justify-center w-32 h-11 mr-1 items-center rounded-md border-2 border-slate-800 hover:bg-slate-800">
                             Github
                             <img
@@ -45,7 +45,7 @@ function ProjectCard({
                             />
                         </button>
                     </a>
-                    <a href={liveLink}>
+                    <a href={liveLink} target="_blank">
                         <button className="flex items-center justify-center w-52 h-11 rounded-md border-2 border-slate-800 hover:bg-slate-800">
                             Live link
                             <img

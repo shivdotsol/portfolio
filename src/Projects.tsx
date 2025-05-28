@@ -3,6 +3,16 @@ import ProjectCard from "./components/ui/ProjectCard";
 function Projects() {
     const projectsArr = [
         {
+            title: "CipherShare",
+            subheading: "E2EE File Sharing",
+            description:
+                "Your files stay private always. Fast, reliable, and built for true privacy. Share with confidence, knowing only the right eyes see your data.",
+            status: "Deployed",
+            imgSrc: "/project-img/cipher-share.png",
+            gitHubLink: "https://github.com/shivdotsol/cipher-share",
+            liveLink: "https://ciphershare.in",
+        },
+        {
             title: "VaultX",
             subheading: "cryptocurrency payments platform",
             description:
