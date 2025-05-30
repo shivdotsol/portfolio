@@ -3,14 +3,14 @@ import SocialsIcon from "./components/ui/SocialsIcon";
 
 function IntroDiv() {
     return (
-        <div className="w-full flex flex-col">
+        <div className="relative w-full flex flex-col">
             {/* name, socials and profile pic */}
             <div className="w-full flex justify-between">
                 <div className="flex flex-col">
                     <div className="text-lg xl:text-4xl font-extrabold xl:mb-2">
                         Shiv Ji Tiwari
                     </div>
-                    <div className="w-[95%] xl:w-full text-slate-400 text-xs xl:text-base">
+                    <div className="w-[70%] xl:w-full text-slate-400 text-xs xl:text-base">
                         Full Stack Web Developer focused on learning through
                         building cool things.
                     </div>
@@ -47,7 +47,7 @@ function IntroDiv() {
                         <SocialsIcon src="/icons/resume.png" to="/resume.pdf" />
                     </div>
                 </div>
-                <div className="my-auto w-[150px] h-[100px]  xl:h-40 xl:w-40 rounded-lg overflow-hidden bg-slate-500">
+                <div className="absolute top-0 right-0 h-28 w-28 lg:h-40 lg:w-40 rounded-lg overflow-hidden">
                     <ImageDiv imgSrc="/profile-pic.png" />
                 </div>
             </div>

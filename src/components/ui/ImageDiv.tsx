@@ -12,13 +12,9 @@ function ImageDiv({ imgSrc }: { imgSrc: string }) {
     }, [imgSrc]);
 
     return (
-        <div className="relative w-full h-full overflow-hidden">
-            <div
-                className={`absolute h-full w-full top-0 left-0 bg-slate-600 ${
-                    imageLoaded ? "opacity-100" : "opacity-0"
-                }`}
-            >
-                <img src={imgSrc} className="w-full h-auto" />
+        <div className="overflow-hidden">
+            <div className={`${imageLoaded ? "opacity-100" : "opacity-0"}`}>
+                <img src={imgSrc} />
             </div>
             <div
                 className={`h-full w-full items-center justify-center bg-slate-700 ${

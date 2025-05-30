@@ -18,7 +18,7 @@ function ProjectCard({
     liveLink: string;
 }) {
     return (
-        <div className="w-96 xl:ml-10 bg-slate-900 rounded-xl overflow-hidden border-[1px] border-slate-800">
+        <div className="w-96 md:mr-5 mb-10 xl:ml-10 bg-slate-900 rounded-xl overflow-hidden border-[1px] border-slate-800">
             <div className="w-full h-52">
                 <ImageDiv imgSrc={imgSrc} />
             </div>
@@ -37,7 +37,7 @@ function ProjectCard({
                 </div>
                 <div className="mt-10 flex justify-between">
                     <a href={gitHubLink} target="_blank">
-                        <button className="flex justify-center w-32 h-11 mr-1 items-center rounded-md border-2 border-slate-800 hover:bg-slate-800">
+                        <button className="flex justify-center w-28 h-10 text-sm md:text-lg md:w-32 md:h-11 mr-1 items-center rounded-md border-2 border-slate-800 hover:bg-slate-800">
                             Github
                             <img
                                 src="/icons/github.png"
@@ -46,7 +46,7 @@ function ProjectCard({
                         </button>
                     </a>
                     <a href={liveLink} target="_blank">
-                        <button className="flex items-center justify-center w-52 h-11 rounded-md border-2 border-slate-800 hover:bg-slate-800">
+                        <button className="flex items-center justify-center w-44 h-10 text-sm md:text-lg md:w-52 md:h-11 rounded-md border-2 border-slate-800 hover:bg-slate-800">
                             Live link
                             <img
                                 className="h-4 ml-2 mb-1 w-auto"

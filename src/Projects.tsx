@@ -28,7 +28,7 @@ function Projects() {
             <div className="text-lg xl:text-2xl font-extrabold mb-4 xl:mb-7 mt-5">
                 Projects
             </div>
-            <div className="flex">
+            <div className="flex flex-col items-center md:flex-row md:items-start">
                 {projectsArr.map((i, n) => (
                     <ProjectCard
                         title={i.title}
