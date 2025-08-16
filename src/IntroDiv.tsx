@@ -48,7 +48,7 @@ function IntroDiv() {
                     </div>
                 </div>
                 <div className="absolute top-0 right-0 h-28 w-28 lg:h-40 lg:w-40 rounded-lg overflow-hidden">
-                    <ImageDiv imgSrc="/profile-pic.png" />
+                    <ImageDiv imgSrc="/profile-pic-1.png" />
                 </div>
             </div>
             {/* about me */}
