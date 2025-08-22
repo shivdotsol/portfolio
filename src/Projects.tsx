@@ -3,11 +3,21 @@ import ProjectCard from "./components/ui/ProjectCard";
 function Projects() {
     const projectsArr = [
         {
+            title: "Nhost AI Chat",
+            subheading: "Real-time AI chat, GraphQL backend",
+            description:
+                "AI Chat application using Nhost, Hasura and OpenRouter. Nhost provides a scalable, open-source platform with PostgreSQL, GraphQL APIs, authentication, and storage. Hasura powers real-time GraphQL queries and mutations.",
+            status: "Live",
+            imgSrc: "/project-img/ai-chat-landing.png",
+            gitHubLink: "https://github.com/shivdotsol/nhost-ai-chat",
+            liveLink: "https://shiv-subspace.netlify.app/",
+        },
+        {
             title: "CipherShare",
             subheading: "E2EE File Sharing",
             description:
                 "Your files stay private always. Fast, reliable, and built for true privacy. Share with confidence, knowing only the right eyes see your data.",
-            status: "Deployed",
+            status: "Live",
             imgSrc: "/project-img/cipher-share.png",
             gitHubLink: "https://github.com/shivdotsol/cipher-share",
             liveLink: "https://ciphershare.in",
